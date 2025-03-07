@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mrakbg_gosample_1741359221295-push-trigger-input-set
+  identifier: Build_mrakbg_gosample_1741359221295pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnesspractice
+  pipeline:
+    identifier: Build_mrakbg_gosample_1741359221295
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
